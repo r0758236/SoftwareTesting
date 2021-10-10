@@ -1,0 +1,8 @@
+Verslag - 10/10/2021
+
+
+how to create a request in Postman
+how to import a request from a browser
+how to inspect HTTP responses 
+handling cookies
+troubleshooting postman issues

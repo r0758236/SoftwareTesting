@@ -1,0 +1,7 @@
+Verslag - 04/10/2021
+
+
+Ik heb de eerste sectie van de course bekeken. 
+Eerst en vooral heb ik Postman moeten installeren dan werd er aangetoond hoe Postman in elkaar zit.
+Daarna heb ik geleerd hoe ik een GET/POST request kon aanmaken.
+Op het einde van de eerste sectie, stond er een quiz klaar om te zien of we wel alles hadden begrepen.

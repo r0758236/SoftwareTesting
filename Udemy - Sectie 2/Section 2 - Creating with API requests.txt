@@ -1,0 +1,59 @@
+Udemy
+Postman: The Complete Guide - REST API Testing
+
+Section 2 - CREATING WITH API REQUESTS
+
+Ressources:
+https://requestbin.net/
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
+https://httpbin.org/
+
+Aan de hand van 'https://requestbin.net/' gaan we een URL laten genereren die wij in Postman zullen gebruiken.
+
+notes:
+how to change something in the request-url
+how to change headers
+everything has a body except GET
+
+BODY
+- form-data
+- raw
+- binary
+- x-www-form-urlencoded
+
+tip: ctrl + b
+> to correct the layout 
+-> html
+
+HEADERS
+- key predefines header
+- you can make your own keys too
+- when you insert an 'a' for example, you'll receive a list of keys beginning with 'a'
+
+how to import a complex request from your browser:
+- copy URL as cURL
+- import > raw text > copy URL
+
+how to inspect HTTP responses:
+an HTTP request has 3 parts
+- status (is important cause give you an indication if you success was successful are not)
+- body (easily inspect it)
+- headers (for known headers, postman will give you more information)
+
+you have the possibility to save the response (if you need to document it)
+
+handling cookies:
+header > set-cookie (instruct the browser to save this cookie) >
+to see existing cookies, postman offers the cookie-manager
+format?
+adding a cookie
+- give a name with a value
+
+when sending a cookie -> cookie-header
+when receiving a cookie -> set-cookie header
+sorts of request-methods:
+- POST
+- GET
+- PUT
+- DELETE
+

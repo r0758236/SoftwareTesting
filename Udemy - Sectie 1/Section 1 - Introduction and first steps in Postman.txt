@@ -1,0 +1,29 @@
+Udemy
+Postman: The Complete Guide - REST API Testing
+
+SECTION 1: INTRODUCTION AND FIRST STEPS IN POSTMAN
+Quiz 1:
+
+A HTTP request is usually composed of URL, method, headers and body. 
+Which of these pieces can Postman control?
+> URL, method, headers and body
+
+What is the benefit of using Postman collection?
+> saving and grouping requests, so that you do not have to rely on the history
+to find something
+> you can add meaningful name and descriptions to your request
+
+What is JSON?
+> it is a data format and primarly used to transport data between a server and
+web application. it stands for JavaScript Object Notation
+
+From where should you download Postman?
+> getpostman.com
+> not from google chrome store
+
+If a HTTP request was processed successfully by the server, 
+what will the status code be?
+> 2xx Success
+
+What can you do with Newman?
+> you can run and test acollection directly from the CLI 
