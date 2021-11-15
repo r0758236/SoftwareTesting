@@ -3,4 +3,14 @@ steps to write assertions:
 - write a test
 
 
+parsing the response body
+
+response body type:
+- json > pm.response.json() >> THE MOST COMMON
+- xml > xml2json(responseBody)
+- html > cheerio(pm.response.text())
+- plain-text > pm.response.text()
+- csv > csv-parse/lib/sync
+
+assertions
 
