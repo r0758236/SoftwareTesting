@@ -1,0 +1,6 @@
+steps to write assertions:
+- parse the response body
+- write a test
+
+
+
