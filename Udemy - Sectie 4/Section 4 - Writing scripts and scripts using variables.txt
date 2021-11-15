@@ -1,0 +1,100 @@
+VARIABLES
+
+Global variables
+
+variables has:
+- value
+- scope
+
+Environments variables
+
+- narrower scope
+- ideal for switching between different setups
+- same usage in the request builder as with global variables
+
+Session variables
+
+- provide additional layer when working with variables
+
+  initial value vs current value
+
+> postman works with the current value
+> if you give in an inital value it will transfer it to the current value
+> BUT if you change the current value, it will not transfer it to the current value
+
+
+Pre-request scripts
+- ideal for making your requests dynamic
+- usually used in combination with variables
+- similar to test scripts
+
+
+pre-request script ->  make the http request -> run the tests
+
+
+variable scopes
+--> global > collection > environment > data > local
+
+
+global: name="Mike"
+environment: name="Jane"
+--> environment is more powerful than global
+--> so Jane will be picked up
+
+1. global variables
+-> general purpose: ideal for quick results and prototyping
+
+best practices:
+- avoid using as much as possible
+- clear/remove variables once you do not need them
+- get variables in scripts using the scoped getter > pm.variables.get('variable name')
+
+
+2. environment variables
+-> ideal when working with different servers
+-> good alternative to global variables
+
+
+when to use:
+- storing environment specific information
+- url, authentication credentials
+- passing data to other requests
+
+best practices:
+- clear/remove variables once you do not need them
+- avoid mixing with global variables
+- get variables in scripts using the scoped getter > pm.variables.get('variable name')
+
+3. collection variables
+-> tied to a collection
+-> cannot be updated using scripts
+-> ideal for storing some constants that do not change during the execution
+
+when to use:
+- any values/constants that do not change
+- urls/authentication credentials if only one environment exists
+- eliminate duplicate variables in environments
+
+best practices:
+- limited usafe as they can not be created/updated with scripts
+- avoid, unless you only need to define constants
+- get variables in scripts using the scoped getter > pm.variables.get('variable name')
+
+
+4. data variables
+-> used when working with multiple data-sets
+-> exist only during the execution of an iteration
+-> can only be set from a CSV or a JSON file
+
+
+DEBUGGING TESTS
+
+
+
+
+
+
+
+
+
+
