@@ -11,3 +11,11 @@ postman.setNextRequest("Request name"):
 
 "request name" 
 > string -- go to next request
+
+postman.setNextRequest("Request name");
+pm.info.requestName: String
+example: Request 1
+
+postman.setNextRequest("Request id");
+pm.info.requestId: String
+example: 42457918-ac20
