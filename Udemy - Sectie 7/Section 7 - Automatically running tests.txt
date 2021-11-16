@@ -1,0 +1,52 @@
+SECTION 7: Automatically running tests
+
+tools:
+- collection runner
+- postman monitors
+- newman
+- newman + jenkins
+- newman + other CI servers
+
+1. postman collection runner
+
+file > new runner tab
+
+. environment
+. iterations
+. delay = interval il milliseconds
+. logging responses
+. data files
+
+2. postman monitors
+
+run collections at regular intervals
+pro feature but you can use up to 1000 API calls per month free
+overview of all monitors that you have
+
+known limitations:
+- postmane servers are not in the same network as you are
+- cannot import global variables (but can create them if needed)
+- global and environment variables are not persisted
+
+. give monitor a name
+. choose environment
+. schedule (timer/minutes)
+. regions
+
+3. newman
+
+why is automation important?
+- by using automation you reduce repetitive manual work
+- get INSTANT feedback when something does not work anymore
+- identify software bugs early in the development process
+
+intro to Nodejs & NPM
+
+nodejs = a js runtime environment that can execute js without opening a browser
+(newman runs inside the nodejs environment)
+npm = node package manager 
+> a repo of projects and has knowledge of what requirements each project has
+
+what is newman?
+a cli tool which allows you to run a postman collection directly from the command line
+
