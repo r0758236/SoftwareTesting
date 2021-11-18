@@ -1,0 +1,14 @@
+running requests with different data sets in Postman
+
+how to create data sets
+- duplicate the requests and change the data (not advised)
+- use external data files
+- use pre-request scripts, variables and workflows
+
+___________
+
+while the data.json file can store booleans like 
+isValid: true
+
+variables created/edited in the Postman gui get saved as strings
+___________

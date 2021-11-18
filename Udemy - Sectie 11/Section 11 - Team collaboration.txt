@@ -1,0 +1,35 @@
+a typical workflow
+
+make a change > export file > commit the file > push change
+
+pros of using GIT:
+- free
+- history of changes
+- all data is stored locally
+- code reviews possible
+- works well for a few users and when changes are rare
+
+cons of using GIT:
+- manual process each time you make a change
+- importing/exporting overhead
+- reviewing json files is suboptimal
+- git conflicts can occur
+
+>> conclusion: 
+- try it out if you already know and work with git
+- ideal for small teams for individuals
+
+
+________________
+
+creating a workspace
+
+- how to create team workspace
+- add collection to the newly created workspace
+- share the workspace
+
+important to remember
+
+- users can only be part of one team
+- team members will be able to see all workspaces and collections
+- permissions are assigned to collections
