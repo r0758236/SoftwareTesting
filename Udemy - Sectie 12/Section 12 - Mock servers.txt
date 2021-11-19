@@ -1,0 +1,18 @@
+Mock server
+
+- fake API that simulates a server response but tries to behave like a real API
+- can be used to serve canned responses to specific requests
+
+why use a mock server?
+
+- API design, prototyping and development
+- API testing
+- for isolating external dependencies in the testing process
+
+known limitations
+
+- cannot match the body
+- cannot match the query parameters
+(GET /api/foo/2/?hidden=true)
+(GET /api/foo/2/?hidden=false)
+- request a specific response by sending a header
