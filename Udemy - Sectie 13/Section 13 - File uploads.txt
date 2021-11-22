@@ -1,0 +1,8 @@
+
+objectives:
+
+- upload a file with postman
+- write tests
+- automate with newman
+- upload a set of files
+
