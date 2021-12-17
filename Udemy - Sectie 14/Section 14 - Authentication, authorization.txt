@@ -1,0 +1,7 @@
+SECTION 14: AUTHENTICATION/AUTHORIZATION
+
+Basic access authentication:
+
+- simple method for implementing authentication
+- username and the password are sent as a header value and encoded with Base64
+
